@@ -39,5 +39,5 @@ func getAllMoments() {
         panic("failed to execute script")
     }
 
-    fmt.Println(value)
+    return value
 }
