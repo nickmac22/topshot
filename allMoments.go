@@ -11,7 +11,7 @@ func handleErr(err error) {
 		
 	}
 }
-func Get_All_Moments() {
+func Get_All_Plays() {
     // connect to flow
     flowClient, err := client.New("access.mainnet.nodes.onflow.org:9000", grpc.WithInsecure())
     handleErr(err)
