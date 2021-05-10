@@ -1,4 +1,4 @@
-module example.com/topshot
+module github.com/nickmac22/topshot
 
 go 1.16
 
