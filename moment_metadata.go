@@ -1,7 +1,7 @@
 package topshot
 import (
 	"context"
-	"fmt"
+// 	"fmt"
 	// "github.com/rrrkren/topshot-sales/topshot"
 	"github.com/onflow/flow-go-sdk/client"
 	// "github.com/onflow/flow-go-sdk"
@@ -9,11 +9,11 @@ import (
 	// "github.com/onflow/cadence"
 )
 
-func handleErr(err error) {
-	if err != nil {
+// func handleErr(err error) {
+// 	if err != nil {
 		
-	}
-}
+// 	}
+// }
 func Get_Moment_PlayID(account String, momentId String) uInt32{
     // connect to flow
     flowClient, err := client.New("access.mainnet.nodes.onflow.org:9000", grpc.WithInsecure())
