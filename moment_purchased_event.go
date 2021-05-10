@@ -26,7 +26,7 @@ func (evt MomentListedEvent) Seller() *flow.Address {
 	return nil
 }
 
-func (evt MomentPurchasedEvent) String() string {
-	return fmt.Sprintf("moment purchased: momentid: %d, price: %f, seller: %s",
+func (evt MomentListedEvent) String() string {
+	return fmt.Sprintf("moment listed: momentid: %d, price: %f, seller: %s",
 		evt.Id(), evt.Price(), evt.Seller())
 }
