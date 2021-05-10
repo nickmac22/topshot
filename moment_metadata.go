@@ -14,7 +14,7 @@ func handleErr(err error) {
 		
 	}
 }
-func Get_Moment_PlayID(account String, momentId String) {
+func Get_Moment_PlayID(account String, momentId String) uInt32{
     // connect to flow
     flowClient, err := client.New("access.mainnet.nodes.onflow.org:9000", grpc.WithInsecure())
     handleErr(err)
