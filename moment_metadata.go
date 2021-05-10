@@ -6,7 +6,7 @@ import (
 	"github.com/onflow/flow-go-sdk/client"
 	// "github.com/onflow/flow-go-sdk"
 	"google.golang.org/grpc"
-	// "github.com/onflow/cadence"
+	"github.com/onflow/cadence"
 )
 
 // func handleErr(err error) {
@@ -14,7 +14,7 @@ import (
 		
 // 	}
 // }
-func Get_Moment_PlayID(account string, momentId string) int{
+func Get_Moment_PlayID(account string, momentId string) cadence.Value{
     // connect to flow
     flowClient, err := client.New("access.mainnet.nodes.onflow.org:9000", grpc.WithInsecure())
     handleErr(err)
