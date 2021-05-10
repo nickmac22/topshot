@@ -70,5 +70,5 @@ func Get_Moment_PlayID(account String, momentId String) uInt32{
     //     panic("failed to execute script")
     // }
 
-    fmt.Println(value)
+    return value
 }
