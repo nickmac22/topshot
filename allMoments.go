@@ -12,7 +12,7 @@ func handleErr(err error) {
 		
 	}
 }
-func Get_All_Plays() cadence.Value{
+func Get_All_Plays() cadence.Value {
     // connect to flow
     flowClient, err := client.New("access.mainnet.nodes.onflow.org:9000", grpc.WithInsecure())
     handleErr(err)
